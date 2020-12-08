@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+:root{
+    --primary-color: #78350F;
+    --write-color: #FCD34D;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: 
+    #FFFBEB;
+    margin: 0px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+nav{
+    text-align: center;
+    color: var(--write-color);
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+}
+
+textarea{
+    width: 100%;
+    height: 20vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--primary-color);
+    font-family: inherit;
+}
+
+button{
+    border: none;
+    color: #FCD34D;
+    background-color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+#output{
+    box-sizing: border-box;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    margin-right: 0px;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0rem;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--primary-color);
+    margin-top: 1.8rem;
+    color: #FCD34D;
+}
